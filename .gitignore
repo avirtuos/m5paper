@@ -1,0 +1,10 @@
+# WiFi credentials — never commit the real secrets.h
+m5paper_clock/secrets.h
+
+# macOS
+.DS_Store
+
+# Arduino build artifacts
+build/
+*.bin
+*.elf

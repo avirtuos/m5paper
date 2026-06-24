@@ -18,10 +18,10 @@ Displays **"Hello World"**, the current time (`HH:MM`), and the full date on the
 
 ### Setup
 
-**1. Install the M5EPD library**
+**1. Install the required libraries**
 
 ```bash
-arduino-cli lib install M5EPD
+arduino-cli lib install M5Unified M5GFX
 ```
 
 **2. Add your WiFi credentials**
@@ -63,4 +63,5 @@ You should see WiFi connect, NTP sync, and a `[draw]` line each minute.
 |-----------|---------|
 | arduino-cli | ≥ 1.0 |
 | esp32 Arduino core | 3.x (tested on 3.3.7) |
-| M5EPD library | 0.1.5 |
+| M5Unified | 0.2.17 |
+| M5GFX | 0.2.23 |
